@@ -1,0 +1,11 @@
+README.html
+lastdose.Rcheck
+lastdose*.tar.gz
+src/*.o
+src/*.so
+test*.R
+test*.cpp
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
