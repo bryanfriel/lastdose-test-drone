@@ -19,7 +19,6 @@ steps:
     R_LIBS_USER: "/opt/rpkgs/3.6/2020-01-29"
   commands:
   - /opt/R/3.6.2/bin/R -e "devtools::test()"
-  - find /tmp -name \*.log -exec cat {} \;
   - /opt/R/3.6.2/bin/R -e "devtools::check()"
 
 
